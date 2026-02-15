@@ -36,7 +36,7 @@ export class UsersController {
   }
 
   @Delete(':id') //Delete user by id
-  remove(@Param('id') id: string) {
+  delete(@Param('id') id: string) {
     return `This action removes a #${id} user`;
   }
 }
